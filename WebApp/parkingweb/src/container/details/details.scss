@@ -1,0 +1,12 @@
+.DetailsPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .Central{
+        padding:2rem 2rem;
+        border: black solid 1px;
+        box-shadow: 0 0 10px black;
+        border-radius: 10px;
+    }
+}

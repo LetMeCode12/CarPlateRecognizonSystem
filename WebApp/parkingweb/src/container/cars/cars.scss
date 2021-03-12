@@ -1,0 +1,18 @@
+.CarsPage{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Central{
+        width: 50%;
+        border: black 1px solid;
+        box-shadow: 0 0 10px black;
+        img{
+            margin:.3rem;
+            &:hover{
+                box-shadow: 0 0 10px black;
+                border-radius: 20rem;
+            }
+        }
+    }
+}

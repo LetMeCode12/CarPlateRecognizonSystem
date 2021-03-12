@@ -1,0 +1,46 @@
+.List {
+    .Headers {
+        display: flex;
+        border-bottom: solid 1px black;
+        margin-bottom: .2rem;
+        & > span {
+            font-size: larger;
+            font-weight: 700;
+            flex: 1 1 30%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .Data {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        max-height: 30rem;
+        height: auto;
+        -ms-overflow-style: none;  
+        scrollbar-width: none;  
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        
+        & > .myList {
+            display: flex;
+            justify-content: center;
+            border-bottom: solid 1px black;
+            
+    
+            & > span {
+                height: auto;
+                flex: 1 1 30%;
+                display: flex;
+                justify-content: center;
+                margin: 0.3rem 0;
+                align-items: center;
+                font-size: medium;
+                font-weight: 400;
+            }
+        }
+        
+    }
+}

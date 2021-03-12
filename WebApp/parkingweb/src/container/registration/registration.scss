@@ -1,0 +1,40 @@
+.Registration{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 25rem;
+    display: flex;
+    flex-direction: column;     
+    white-space: nowrap; 
+    img{
+        height: 20rem;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .myForm{
+        border: black 1px solid;
+        border-radius: 10px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 10px black;
+        .myError{
+            color: red;
+        }
+
+        .myInput{
+            margin-bottom:.5rem;
+            margin-top:.5rem;
+        }
+        .btn{
+            // margin-bottom:.5rem !important;
+            margin-top:1rem !important;
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+    }
+}
